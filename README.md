@@ -1,11 +1,9 @@
 # SparkleReleaseTest
-
 This is a example project to show how to create a GitHub Action to automatically create a release for a macOS app, using Sparkle.
 
 Complete guide to this project can be found [here](https://medium.com/@alex.pera/automating-xcode-sparkle-releases-with-github-actions-bd14f3ca92aa).
 
 ## What does the workflow do?
-
 The owner creates a PR to `main` (the branch which is used by GitHub Pages) and comments `/release`. If the PR is mergeable, this triggers a GitHub Action which will:
 1. Extrapolate from `Release_Notes.md` the:
     * latest version number
